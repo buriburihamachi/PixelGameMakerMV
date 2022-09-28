@@ -1,0 +1,2 @@
+# PixelGameMakerMV
+アクションゲームツクールMV用プラグイン
