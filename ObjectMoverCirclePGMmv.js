@@ -423,7 +423,7 @@
         var sceneId = Agtk.sceneInstances.getCurrent().sceneId;
         // シーンIDが違うと削除
         if(sceneIdxxx != sceneId){
-           clearInterval(tim);
+           clearInterval(tim2);
         }
 
 
@@ -457,6 +457,13 @@
 
 
        function wavesignal(){
+
+           // シーンIDをゲット
+           var sceneId = Agtk.sceneInstances.getCurrent().sceneId;
+           // シーンIDが違うと削除
+           if(sceneIdxxx != sceneId){
+              clearInterval(tim);
+           }
 
             // 円の中心位置X
            if(inputObject2 == 0){
