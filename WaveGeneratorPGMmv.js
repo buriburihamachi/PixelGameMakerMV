@@ -389,7 +389,7 @@
         // シーンIDが違うと削除
         if(inputObject10 == 1){
            if(sceneIdxxx != sceneId){
-              clearInterval(tim);
+              clearInterval(tim2);
            }
         }
 
@@ -420,6 +420,15 @@
     }
 
         function wavesignal(){
+
+        // シーンIDをゲット
+        var sceneId = Agtk.sceneInstances.getCurrent().sceneId;
+        // シーンIDが違うと削除
+        if(inputObject10 == 1){
+           if(sceneIdxxx != sceneId){
+              clearInterval(tim);
+           }
+        }
 
          // 一時停止
         if(settings7 == 1){
